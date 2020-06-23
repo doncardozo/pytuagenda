@@ -1,1 +1,1 @@
-web: gunicorn pyagenda --log-file -
+web: gunicorn pyagenda.wsgi --log-file -
